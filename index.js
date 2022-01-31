@@ -11,7 +11,7 @@ const userRoute=require("./routes/users");
 dotenv.config();
 app.use(cors(
     {
-    origin:['https://upbeat-bell-728a0d.netlify.app'],
+    origin:['https://upbeat-bell-728a0d.netlify.app/api'],
     credentials:true
     },
 ));
