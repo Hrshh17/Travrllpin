@@ -11,7 +11,7 @@ const userRoute=require("./routes/users");
 dotenv.config();
 app.use(cors(
     {
-    origin:['http://localhost:8800','https://upbeat-bell-728a0d.netlify.app/api'],
+    origin:['http://localhost:8800','https://upbeat-bell-728a0d.netlify.app'],
     credentials:true
     },
 ));
