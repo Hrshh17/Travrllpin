@@ -11,7 +11,7 @@ const userRoute=require("./routes/users");
 dotenv.config();
 app.use(cors(
     {
-    origin:['http://localhost:8800'],
+    origin:['http://localhost:8800','https://clever-tesla-290c11.netlify.app'],
     credentials:true
     },
 ));
